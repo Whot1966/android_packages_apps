@@ -1,0 +1,11 @@
+android_app_import {
+	name: "PrebuiltGcam",
+	owner: "google",
+	apk: "MGC_8.4.300_Parrot043_V1.6.apk",
+	presigned: true,
+	dex_preopt: {
+		enabled: false,
+	},
+	privileged: true,
+	overrides: ["Camera2", Snap"],
+}

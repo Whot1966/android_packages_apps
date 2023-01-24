@@ -1,1 +1,2 @@
 PrebuiltChromium/arm64_ChromePublic_HEVC-108.0.5389.123-67f3cee.apk filter=lfs diff=lfs merge=lfs -text
+PrebuiltGcam/MGC_8.4.300_Parrot043_V1.6.apk filter=lfs diff=lfs merge=lfs -text
