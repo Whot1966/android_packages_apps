@@ -3,7 +3,7 @@ android_app_import {
 	owner: "google",
 	apk: "arm64_ChromePublic_HEVC-108.0.5389.123-67f3cee.apk",
 	overrides: ["Jelly", "ViaBrowser"],
-	certificate: "platform",
+	presigned: true,
 	dex_preopt: {
 		enabled: false,
 	},
