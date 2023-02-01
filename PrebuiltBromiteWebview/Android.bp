@@ -1,0 +1,11 @@
+android_app_import {
+	name: "PrebuiltBromiteWebview",
+	owner: "bromite",
+	apk: "arm64_SystemWebView.apk",
+	overrides: ["webview", "WebViewGoogle", "WebViewGoogle-Stub"],
+	presigned: true,
+	dex_preopt: {
+		enabled: false,
+	},
+	privileged: true,
+}
